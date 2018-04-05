@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="App-convertisseur_pouce_en_cm.jnlp">
+  <information>
+    <title>App-convertisseur_pouce_en_cm</title>
+    <vendor>p</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="App-convertisseur_pouce_en_cm.jar" size="4090" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="App-convertisseur_pouce_en_cm" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="app.imc.AppConvertisseur_pouce_cm"  name="App-convertisseur_pouce_en_cm" />
+  <update check="always"/>
+</jnlp>
